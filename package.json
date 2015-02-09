@@ -1,0 +1,26 @@
+{
+  "name": "firebase-autobackup",
+  "version": "0.0.0",
+  "description": "A node server that makes backups of a firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/castleDevTeam/firebase-autobackup"
+  },
+  "keywords": [
+    "node",
+    "firebase"
+  ],
+  "author": "Castle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castleDevTeam/firebase-autobackup/issues"
+  },
+  "homepage": "https://github.com/castleDevTeam/firebase-autobackup",
+  "dependencies": {
+    "firebase": "^2.0.5"
+  }
+}
