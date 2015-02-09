@@ -18,7 +18,7 @@ ref.authWithCustomToken(process.env.FIREBASE_SECRET, function (err) {
           else { console.log(now.toString(), 'Backup saved!', filename); }
         });
       });
-    }, 14400); // every 4 hours
+    }, 14400000); // every 4 hours
   } else {
       console.log(now.toString(), 'Re-authenticating to firebase');
   }
